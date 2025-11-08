@@ -27,22 +27,6 @@ Backend: Flask (Python)
 Text-to-Speech Engine: gTTS (Google Text-to-Speech)
 Hosting: Render (Free Tier)
 
-_________________
-Project Structure
-_________________
-
-Echo/
-│
-├── app.py                # Flask application entry point
-├── requirements.txt      # Project dependencies
-├── templates/
-│   └── index.html        # Main HTML template
-├── static/
-│   ├── style.css         # Custom CSS (Neumorphism styling)
-│   ├── script.js         # Client-side logic
-│   └── audio/            # Generated audio files (temporary)
-└── README.md             # Project documentation
-
 _______________________
 Setup and Installation
 _______________________
