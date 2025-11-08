@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voxa | Multilingual TTS</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>ECHO</h1>
+    <p class="subtitle">Your Multilingual Voice Assistant</p>
+
+    <textarea id="text-input" placeholder="Type something like: Hello कैसे हो?"></textarea>
+
+    <div class="buttons">
+      <button id="speak-btn">၊၊||၊ Speak</button>
+      <button id="clear-btn">၊၊||၊ Clear</button>
+    </div>
+
+    <audio id="audio-player" controls></audio>
+    <!-- <footer></footer> -->
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
